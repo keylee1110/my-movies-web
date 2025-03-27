@@ -1,4 +1,4 @@
--My Movies Web-
+## My Movies Web
 A full-stack web application built with Java Spring Boot (backend), React (frontend), and MongoDB (database). 
 This project allows users to: manage and explore a collection of movies, including features like searching, adding, and rating movies.
 
@@ -10,16 +10,19 @@ my-movies-web/
 └── frontend/       # React.js SPA
 ```
 ---
-Tech Stack
+## ⚙️ Tech Stack
+```
 Backend: Java Spring Boot
 Frontend: React
 Database: MongoDB
 Other Tools:
 Maven (for backend dependency management)
 Node.js and npm (for frontend dependency management)
+```
 ---
 
-Prerequisites
+## 🛠️Prerequisites
+```
 Before running the project, ensure you have the following installed:
 
 Java: Version 17 or higher (for Spring Boot)
@@ -28,15 +31,16 @@ MongoDB: A local or cloud instance (e.g., MongoDB Atlas)
 Git: To clone the repository
 Maven: For building the backend
 A code editor like VS Code or IntelliJ IDEA
+```
 ---
+## 📋 API Endpoints
 
-API Endpoints
-Here are some example API endpoints provided by the backend:
-
+```
 GET /api/movies - Retrieve all movies
 POST /api/movies - Add a new movie
 PUT /api/movies/{id} - Update a movie by ID
 DELETE /api/movies/{id} - Delete a movie by ID
+```
 ---
 
 ## 📝 License
